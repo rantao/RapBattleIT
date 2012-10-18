@@ -16,6 +16,29 @@
 		255EB85A162FAB9900D59DC9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 255EB859162FAB9900D59DC9 /* Default.png */; };
 		255EB85C162FAB9900D59DC9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 255EB85B162FAB9900D59DC9 /* Default@2x.png */; };
 		255EB85E162FAB9900D59DC9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 255EB85D162FAB9900D59DC9 /* Default-568h@2x.png */; };
+		255EB867162FAC5500D59DC9 /* StartBattleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255EB865162FAC5500D59DC9 /* StartBattleViewController.m */; };
+		255EB868162FAC5500D59DC9 /* StartBattleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255EB866162FAC5500D59DC9 /* StartBattleViewController.xib */; };
+		255EB86E162FC0AA00D59DC9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB86D162FC0AA00D59DC9 /* Parse.framework */; };
+		255EB87C162FC13000D59DC9 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB86F162FC13000D59DC9 /* Accounts.framework */; };
+		255EB87D162FC13000D59DC9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB870162FC13000D59DC9 /* AdSupport.framework */; };
+		255EB87E162FC13000D59DC9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB871162FC13000D59DC9 /* AudioToolbox.framework */; };
+		255EB87F162FC13000D59DC9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB872162FC13000D59DC9 /* CFNetwork.framework */; };
+		255EB880162FC13000D59DC9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB873162FC13000D59DC9 /* CoreLocation.framework */; };
+		255EB881162FC13000D59DC9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB874162FC13000D59DC9 /* libsqlite3.dylib */; };
+		255EB882162FC13000D59DC9 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB875162FC13000D59DC9 /* libz.1.1.3.dylib */; };
+		255EB883162FC13000D59DC9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB876162FC13000D59DC9 /* MobileCoreServices.framework */; };
+		255EB884162FC13000D59DC9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB877162FC13000D59DC9 /* QuartzCore.framework */; };
+		255EB885162FC13000D59DC9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB878162FC13000D59DC9 /* Security.framework */; };
+		255EB886162FC13000D59DC9 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB879162FC13000D59DC9 /* Social.framework */; };
+		255EB887162FC13000D59DC9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB87A162FC13000D59DC9 /* StoreKit.framework */; };
+		255EB888162FC13000D59DC9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB87B162FC13000D59DC9 /* SystemConfiguration.framework */; };
+		255EB88A162FC30B00D59DC9 /* Mostwasted.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 255EB889162FC2FB00D59DC9 /* Mostwasted.ttf */; };
+		255EB88F162FC51B00D59DC9 /* 03 Naughty Girl (Instrumental).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 255EB88B162FC51B00D59DC9 /* 03 Naughty Girl (Instrumental).mp3 */; };
+		255EB890162FC51B00D59DC9 /* Instrumentals - Dr Dre - Chronic 2001 - Forgot About Dre .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 255EB88C162FC51B00D59DC9 /* Instrumentals - Dr Dre - Chronic 2001 - Forgot About Dre .mp3 */; };
+		255EB891162FC51B00D59DC9 /* Instrumentals - Guess Who's Back.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 255EB88D162FC51B00D59DC9 /* Instrumentals - Guess Who's Back.mp3 */; };
+		255EB892162FC51B00D59DC9 /* Instrumentals- Dr. Dre- Nuthin But A G Thang (1).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 255EB88E162FC51B00D59DC9 /* Instrumentals- Dr. Dre- Nuthin But A G Thang (1).mp3 */; };
+		255EB898162FC62700D59DC9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB897162FC62700D59DC9 /* AVFoundation.framework */; };
+		255EB89A162FC78F00D59DC9 /* MetaDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255EB899162FC78F00D59DC9 /* MetaDataViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +55,34 @@
 		255EB859162FAB9900D59DC9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		255EB85B162FAB9900D59DC9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		255EB85D162FAB9900D59DC9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		255EB864162FAC5400D59DC9 /* StartBattleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartBattleViewController.h; sourceTree = "<group>"; };
+		255EB865162FAC5500D59DC9 /* StartBattleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartBattleViewController.m; sourceTree = "<group>"; };
+		255EB866162FAC5500D59DC9 /* StartBattleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartBattleViewController.xib; sourceTree = "<group>"; };
+		255EB86D162FC0AA00D59DC9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		255EB86F162FC13000D59DC9 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		255EB870162FC13000D59DC9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		255EB871162FC13000D59DC9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		255EB872162FC13000D59DC9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		255EB873162FC13000D59DC9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		255EB874162FC13000D59DC9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		255EB875162FC13000D59DC9 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		255EB876162FC13000D59DC9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		255EB877162FC13000D59DC9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		255EB878162FC13000D59DC9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		255EB879162FC13000D59DC9 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		255EB87A162FC13000D59DC9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		255EB87B162FC13000D59DC9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		255EB889162FC2FB00D59DC9 /* Mostwasted.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mostwasted.ttf; sourceTree = "<group>"; };
+		255EB88B162FC51B00D59DC9 /* 03 Naughty Girl (Instrumental).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 Naughty Girl (Instrumental).mp3"; sourceTree = "<group>"; };
+		255EB88C162FC51B00D59DC9 /* Instrumentals - Dr Dre - Chronic 2001 - Forgot About Dre .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Instrumentals - Dr Dre - Chronic 2001 - Forgot About Dre .mp3"; sourceTree = "<group>"; };
+		255EB88D162FC51B00D59DC9 /* Instrumentals - Guess Who's Back.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Instrumentals - Guess Who's Back.mp3"; sourceTree = "<group>"; };
+		255EB88E162FC51B00D59DC9 /* Instrumentals- Dr. Dre- Nuthin But A G Thang (1).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Instrumentals- Dr. Dre- Nuthin But A G Thang (1).mp3"; sourceTree = "<group>"; };
+		255EB893162FC5F500D59DC9 /* RecordingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordingViewController.m; sourceTree = "<group>"; };
+		255EB894162FC5F500D59DC9 /* RecordingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordingViewController.h; sourceTree = "<group>"; };
+		255EB895162FC5F500D59DC9 /* MetaDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetaDataViewController.m; sourceTree = "<group>"; };
+		255EB896162FC5F500D59DC9 /* MetaDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetaDataViewController.h; sourceTree = "<group>"; };
+		255EB897162FC62700D59DC9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		255EB899162FC78F00D59DC9 /* MetaDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MetaDataViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +90,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255EB898162FC62700D59DC9 /* AVFoundation.framework in Frameworks */,
+				255EB87C162FC13000D59DC9 /* Accounts.framework in Frameworks */,
+				255EB87D162FC13000D59DC9 /* AdSupport.framework in Frameworks */,
+				255EB87E162FC13000D59DC9 /* AudioToolbox.framework in Frameworks */,
+				255EB87F162FC13000D59DC9 /* CFNetwork.framework in Frameworks */,
+				255EB880162FC13000D59DC9 /* CoreLocation.framework in Frameworks */,
+				255EB881162FC13000D59DC9 /* libsqlite3.dylib in Frameworks */,
+				255EB882162FC13000D59DC9 /* libz.1.1.3.dylib in Frameworks */,
+				255EB883162FC13000D59DC9 /* MobileCoreServices.framework in Frameworks */,
+				255EB884162FC13000D59DC9 /* QuartzCore.framework in Frameworks */,
+				255EB885162FC13000D59DC9 /* Security.framework in Frameworks */,
+				255EB886162FC13000D59DC9 /* Social.framework in Frameworks */,
+				255EB887162FC13000D59DC9 /* StoreKit.framework in Frameworks */,
+				255EB888162FC13000D59DC9 /* SystemConfiguration.framework in Frameworks */,
+				255EB84C162FAB9900D59DC9 /* CoreGraphics.framework in Frameworks */,
 				255EB848162FAB9900D59DC9 /* UIKit.framework in Frameworks */,
 				255EB84A162FAB9900D59DC9 /* Foundation.framework in Frameworks */,
-				255EB84C162FAB9900D59DC9 /* CoreGraphics.framework in Frameworks */,
+				255EB86E162FC0AA00D59DC9 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +134,21 @@
 		255EB846162FAB9900D59DC9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				255EB897162FC62700D59DC9 /* AVFoundation.framework */,
+				255EB86F162FC13000D59DC9 /* Accounts.framework */,
+				255EB870162FC13000D59DC9 /* AdSupport.framework */,
+				255EB871162FC13000D59DC9 /* AudioToolbox.framework */,
+				255EB872162FC13000D59DC9 /* CFNetwork.framework */,
+				255EB873162FC13000D59DC9 /* CoreLocation.framework */,
+				255EB874162FC13000D59DC9 /* libsqlite3.dylib */,
+				255EB875162FC13000D59DC9 /* libz.1.1.3.dylib */,
+				255EB876162FC13000D59DC9 /* MobileCoreServices.framework */,
+				255EB877162FC13000D59DC9 /* QuartzCore.framework */,
+				255EB878162FC13000D59DC9 /* Security.framework */,
+				255EB879162FC13000D59DC9 /* Social.framework */,
+				255EB87A162FC13000D59DC9 /* StoreKit.framework */,
+				255EB87B162FC13000D59DC9 /* SystemConfiguration.framework */,
+				255EB86D162FC0AA00D59DC9 /* Parse.framework */,
 				255EB847162FAB9900D59DC9 /* UIKit.framework */,
 				255EB849162FAB9900D59DC9 /* Foundation.framework */,
 				255EB84B162FAB9900D59DC9 /* CoreGraphics.framework */,
@@ -78,6 +159,14 @@
 		255EB84D162FAB9900D59DC9 /* RapBattleIt */ = {
 			isa = PBXGroup;
 			children = (
+				255EB893162FC5F500D59DC9 /* RecordingViewController.m */,
+				255EB894162FC5F500D59DC9 /* RecordingViewController.h */,
+				255EB895162FC5F500D59DC9 /* MetaDataViewController.m */,
+				255EB896162FC5F500D59DC9 /* MetaDataViewController.h */,
+				255EB899162FC78F00D59DC9 /* MetaDataViewController.xib */,
+				255EB864162FAC5400D59DC9 /* StartBattleViewController.h */,
+				255EB865162FAC5500D59DC9 /* StartBattleViewController.m */,
+				255EB866162FAC5500D59DC9 /* StartBattleViewController.xib */,
 				255EB856162FAB9900D59DC9 /* AppDelegate.h */,
 				255EB857162FAB9900D59DC9 /* AppDelegate.m */,
 				255EB84E162FAB9900D59DC9 /* Supporting Files */,
@@ -88,6 +177,11 @@
 		255EB84E162FAB9900D59DC9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				255EB88B162FC51B00D59DC9 /* 03 Naughty Girl (Instrumental).mp3 */,
+				255EB88C162FC51B00D59DC9 /* Instrumentals - Dr Dre - Chronic 2001 - Forgot About Dre .mp3 */,
+				255EB88D162FC51B00D59DC9 /* Instrumentals - Guess Who's Back.mp3 */,
+				255EB88E162FC51B00D59DC9 /* Instrumentals- Dr. Dre- Nuthin But A G Thang (1).mp3 */,
+				255EB889162FC2FB00D59DC9 /* Mostwasted.ttf */,
 				255EB84F162FAB9900D59DC9 /* RapBattleIt-Info.plist */,
 				255EB850162FAB9900D59DC9 /* InfoPlist.strings */,
 				255EB853162FAB9900D59DC9 /* main.m */,
@@ -150,10 +244,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255EB88A162FC30B00D59DC9 /* Mostwasted.ttf in Resources */,
 				255EB852162FAB9900D59DC9 /* InfoPlist.strings in Resources */,
 				255EB85A162FAB9900D59DC9 /* Default.png in Resources */,
 				255EB85C162FAB9900D59DC9 /* Default@2x.png in Resources */,
 				255EB85E162FAB9900D59DC9 /* Default-568h@2x.png in Resources */,
+				255EB868162FAC5500D59DC9 /* StartBattleViewController.xib in Resources */,
+				255EB88F162FC51B00D59DC9 /* 03 Naughty Girl (Instrumental).mp3 in Resources */,
+				255EB890162FC51B00D59DC9 /* Instrumentals - Dr Dre - Chronic 2001 - Forgot About Dre .mp3 in Resources */,
+				255EB891162FC51B00D59DC9 /* Instrumentals - Guess Who's Back.mp3 in Resources */,
+				255EB892162FC51B00D59DC9 /* Instrumentals- Dr. Dre- Nuthin But A G Thang (1).mp3 in Resources */,
+				255EB89A162FC78F00D59DC9 /* MetaDataViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +267,7 @@
 			files = (
 				255EB854162FAB9900D59DC9 /* main.m in Sources */,
 				255EB858162FAB9900D59DC9 /* AppDelegate.m in Sources */,
+				255EB867162FAC5500D59DC9 /* StartBattleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +340,10 @@
 		255EB862162FAB9900D59DC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RapBattleIt/RapBattleIt-Prefix.pch";
 				INFOPLIST_FILE = "RapBattleIt/RapBattleIt-Info.plist";
@@ -249,6 +355,10 @@
 		255EB863162FAB9900D59DC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RapBattleIt/RapBattleIt-Prefix.pch";
 				INFOPLIST_FILE = "RapBattleIt/RapBattleIt-Info.plist";

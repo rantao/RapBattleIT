@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "StartBattleViewController.h"
+#import <Parse/Parse.h>
+
 
 @implementation AppDelegate
 
@@ -14,6 +17,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    [Parse setApplicationId:@"U7W1joEi8IYvTk6bqt1ldgn5iKMYGGgHL9eWeRub"
+                  clientKey:@"20Y9aUstwxDUet5S2muQJzzeZCM8IbMNkkKbnJ8B"];
+    self.window.rootViewController = [StartBattleViewController new];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
