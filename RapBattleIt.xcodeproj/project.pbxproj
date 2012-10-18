@@ -38,7 +38,6 @@
 		255EB891162FC51B00D59DC9 /* beat3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 255EB88D162FC51B00D59DC9 /* beat3.mp3 */; };
 		255EB892162FC51B00D59DC9 /* beat4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 255EB88E162FC51B00D59DC9 /* beat4.mp3 */; };
 		255EB898162FC62700D59DC9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB897162FC62700D59DC9 /* AVFoundation.framework */; };
-		255EB89A162FC78F00D59DC9 /* MetaDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255EB899162FC78F00D59DC9 /* MetaDataViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,10 +76,7 @@
 		255EB88C162FC51B00D59DC9 /* beat2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beat2.mp3; sourceTree = "<group>"; };
 		255EB88D162FC51B00D59DC9 /* beat3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beat3.mp3; sourceTree = "<group>"; };
 		255EB88E162FC51B00D59DC9 /* beat4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beat4.mp3; sourceTree = "<group>"; };
-		255EB895162FC5F500D59DC9 /* MetaDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetaDataViewController.m; sourceTree = "<group>"; };
-		255EB896162FC5F500D59DC9 /* MetaDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetaDataViewController.h; sourceTree = "<group>"; };
 		255EB897162FC62700D59DC9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		255EB899162FC78F00D59DC9 /* MetaDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MetaDataViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,9 +153,6 @@
 		255EB84D162FAB9900D59DC9 /* RapBattleIt */ = {
 			isa = PBXGroup;
 			children = (
-				255EB895162FC5F500D59DC9 /* MetaDataViewController.m */,
-				255EB896162FC5F500D59DC9 /* MetaDataViewController.h */,
-				255EB899162FC78F00D59DC9 /* MetaDataViewController.xib */,
 				255EB864162FAC5400D59DC9 /* StartBattleViewController.h */,
 				255EB865162FAC5500D59DC9 /* StartBattleViewController.m */,
 				255EB866162FAC5500D59DC9 /* StartBattleViewController.xib */,
@@ -250,7 +243,6 @@
 				255EB890162FC51B00D59DC9 /* beat2.mp3 in Resources */,
 				255EB891162FC51B00D59DC9 /* beat3.mp3 in Resources */,
 				255EB892162FC51B00D59DC9 /* beat4.mp3 in Resources */,
-				255EB89A162FC78F00D59DC9 /* MetaDataViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

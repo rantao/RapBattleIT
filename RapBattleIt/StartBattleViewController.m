@@ -7,7 +7,6 @@
 //
 
 #import "StartBattleViewController.h"
-#import "MetaDataViewController.h"
 #import <Parse/Parse.h>
 #import <AVFoundation/AVFoundation.h>
 
