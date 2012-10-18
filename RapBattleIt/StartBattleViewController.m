@@ -109,7 +109,7 @@
     NSString *randomCompany = [self.companies objectAtIndex:randomCompanyIndex];
     NSString *randomVerb = [self.verbs objectAtIndex:randomVerbIndex];
     NSString *randomNerdWord = [self.nerdWords objectAtIndex:randomNerdWordIndex];
-    self.topicLabel.text = [NSString stringWithFormat:@"%@ %@ %@",randomCompany, randomVerb, randomNerdWord];
+    self.topicLabel.text = [NSString stringWithFormat:@"%@\n%@\n%@",randomCompany, randomVerb, randomNerdWord];
     self.countdownLabel.text = @"00:30";
     timeLeft = 30;
     AVAudioSession *session = [AVAudioSession sharedInstance];
