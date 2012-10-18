@@ -31,7 +31,7 @@
         self.companies = [NSArray new];
         self.verbs = [NSArray new];
         self.nerdWords = [NSArray new];
-        self.companies = @[@"TWILIO",@"BOX",@"AMAZON",@"DROPBOX",@"DUCKSBOARD",@"GOOGLE",@"HEROKU",@"MASHERY",@"PARSE",@"SENDGRID",@"SOUNDCLOUND",@"AZURE"];
+        self.companies = @[@"TWILIO",@"BOX",@"AMAZON",@"DROPBOX",@"DUCKSBOARD",@"GOOGLE",@"HEROKU",@"MASHERY",@"PARSE",@"SENDGRID",@"SOUNDCLOUD",@"AZURE"];
         self.verbs = @[@"CODE", @"HACK", @"MERGE", @"FORK", @"DEBUG", @"FETCH", @"POST", @"GET"];
         self.nerdWords = @[@"CLOUD", @"DEVELOPER", @"BIT", @"ARRAY", @"GIT", @"SOURCE", @"SCRIPT", @"OBJECTS", @"SDK", @"API"];
         
@@ -103,9 +103,9 @@
     NSInteger randomCompanyIndex = rand() % [self.companies count];
     NSInteger randomVerbIndex = rand() % [self.verbs count];
     NSInteger randomNerdWordIndex = arc4random() % [self.nerdWords count];
-    NSString *randomCompany = [self.companies objectAtIndex:0];
-    NSString *randomVerb = [self.verbs objectAtIndex:0];
-    NSString *randomNerdWord = [self.nerdWords objectAtIndex:0];
+    NSString *randomCompany = [self.companies objectAtIndex:randomCompanyIndex];
+    NSString *randomVerb = [self.verbs objectAtIndex:randomVerbIndex];
+    NSString *randomNerdWord = [self.nerdWords objectAtIndex:randomNerdWordIndex];
     self.topicLabel.text = [NSString stringWithFormat:@"%@ %@ %@",randomCompany, randomVerb, randomNerdWord];
     self.countdownLabel.text = @"00:30";
     timeLeft = 30;
