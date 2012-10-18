@@ -19,6 +19,8 @@
 @property (strong) PFObject *audioObject;
 @property (strong) AVAudioRecorder *recorder;
 @property (strong) UIButton *recordButton;
+@property (nonatomic, strong) AVAudioPlayer *backgroundBeat;
+
 @end
 
 @implementation StartBattleViewController
@@ -43,8 +45,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.rapTopicLabel.font = [UIFont fontWithName:@"Most Wasted" size:30];
-    self.topicLabel.font = [UIFont fontWithName:@"Most Wasted" size:24];
+    self.rapTopicLabel.font = [UIFont fontWithName:@"MostWasted" size:30];
+    self.topicLabel.font = [UIFont fontWithName:@"MostWasted" size:24];
+    [self prepareForRecord];
     [self setup];
 
 }
@@ -109,6 +112,11 @@
     self.topicLabel.text = [NSString stringWithFormat:@"%@ %@ %@",randomCompany, randomVerb, randomNerdWord];
     self.countdownLabel.text = @"00:30";
     timeLeft = 30;
+    AVAudioSession *session = [AVAudioSession sharedInstance];
+    [session setCategory:AVAudioSessionCategoryPlayback error:nil];
+    NSString *music = [[NSBundle mainBundle] pathForResource:@"beat1" ofType:@"mp3"];
+    self.backgroundBeat = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:music] error:NULL];
+    [self.backgroundBeat prepareToPlay];
 }
 
 - (void)didReceiveMemoryWarning
@@ -130,6 +138,7 @@
     } else {
         [self timerDone];
         [self.countdownTimer invalidate];
+        [self.backgroundBeat stop];
         started = NO;
     }
 }
@@ -158,10 +167,31 @@
     }];
 }
 
+- (IBAction)beatChanged:(UISegmentedControl *)sender {
+    if ([sender selectedSegmentIndex] == 0) {
+        NSString *music = [[NSBundle mainBundle] pathForResource:@"beat1" ofType:@"mp3"];
+        self.backgroundBeat = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:music] error:NULL];
+        [self.backgroundBeat prepareToPlay];
+    } else if ([sender selectedSegmentIndex] == 1) {
+        NSString *music = [[NSBundle mainBundle] pathForResource:@"beat2" ofType:@"mp3"];
+        self.backgroundBeat = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:music] error:NULL];
+        [self.backgroundBeat prepareToPlay];
+    } else if ([sender selectedSegmentIndex] == 2) {
+        NSString *music = [[NSBundle mainBundle] pathForResource:@"beat3" ofType:@"mp3"];
+        self.backgroundBeat = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:music] error:NULL];
+        [self.backgroundBeat prepareToPlay];
+    } else if ([sender selectedSegmentIndex] == 3) {
+        NSString *music = [[NSBundle mainBundle] pathForResource:@"beat4" ofType:@"mp3"];
+        self.backgroundBeat = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:music] error:NULL];
+        [self.backgroundBeat prepareToPlay];
+    }
+}
+
 - (IBAction)startButtonPressed:(UIButton *)sender {
     if (!started) {
         [self setupTimer];
         [self recordTouchDown];
+        [self.backgroundBeat play];
 
     }
     started = YES;

@@ -33,10 +33,10 @@
 		255EB887162FC13000D59DC9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB87A162FC13000D59DC9 /* StoreKit.framework */; };
 		255EB888162FC13000D59DC9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB87B162FC13000D59DC9 /* SystemConfiguration.framework */; };
 		255EB88A162FC30B00D59DC9 /* Mostwasted.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 255EB889162FC2FB00D59DC9 /* Mostwasted.ttf */; };
-		255EB88F162FC51B00D59DC9 /* 03 Naughty Girl (Instrumental).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 255EB88B162FC51B00D59DC9 /* 03 Naughty Girl (Instrumental).mp3 */; };
-		255EB890162FC51B00D59DC9 /* Instrumentals - Dr Dre - Chronic 2001 - Forgot About Dre .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 255EB88C162FC51B00D59DC9 /* Instrumentals - Dr Dre - Chronic 2001 - Forgot About Dre .mp3 */; };
-		255EB891162FC51B00D59DC9 /* Instrumentals - Guess Who's Back.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 255EB88D162FC51B00D59DC9 /* Instrumentals - Guess Who's Back.mp3 */; };
-		255EB892162FC51B00D59DC9 /* Instrumentals- Dr. Dre- Nuthin But A G Thang (1).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 255EB88E162FC51B00D59DC9 /* Instrumentals- Dr. Dre- Nuthin But A G Thang (1).mp3 */; };
+		255EB88F162FC51B00D59DC9 /* beat1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 255EB88B162FC51B00D59DC9 /* beat1.mp3 */; };
+		255EB890162FC51B00D59DC9 /* beat2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 255EB88C162FC51B00D59DC9 /* beat2.mp3 */; };
+		255EB891162FC51B00D59DC9 /* beat3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 255EB88D162FC51B00D59DC9 /* beat3.mp3 */; };
+		255EB892162FC51B00D59DC9 /* beat4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 255EB88E162FC51B00D59DC9 /* beat4.mp3 */; };
 		255EB898162FC62700D59DC9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255EB897162FC62700D59DC9 /* AVFoundation.framework */; };
 		255EB89A162FC78F00D59DC9 /* MetaDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255EB899162FC78F00D59DC9 /* MetaDataViewController.xib */; };
 /* End PBXBuildFile section */
@@ -73,10 +73,10 @@
 		255EB87A162FC13000D59DC9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		255EB87B162FC13000D59DC9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		255EB889162FC2FB00D59DC9 /* Mostwasted.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mostwasted.ttf; sourceTree = "<group>"; };
-		255EB88B162FC51B00D59DC9 /* 03 Naughty Girl (Instrumental).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 Naughty Girl (Instrumental).mp3"; sourceTree = "<group>"; };
-		255EB88C162FC51B00D59DC9 /* Instrumentals - Dr Dre - Chronic 2001 - Forgot About Dre .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Instrumentals - Dr Dre - Chronic 2001 - Forgot About Dre .mp3"; sourceTree = "<group>"; };
-		255EB88D162FC51B00D59DC9 /* Instrumentals - Guess Who's Back.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Instrumentals - Guess Who's Back.mp3"; sourceTree = "<group>"; };
-		255EB88E162FC51B00D59DC9 /* Instrumentals- Dr. Dre- Nuthin But A G Thang (1).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Instrumentals- Dr. Dre- Nuthin But A G Thang (1).mp3"; sourceTree = "<group>"; };
+		255EB88B162FC51B00D59DC9 /* beat1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beat1.mp3; sourceTree = "<group>"; };
+		255EB88C162FC51B00D59DC9 /* beat2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beat2.mp3; sourceTree = "<group>"; };
+		255EB88D162FC51B00D59DC9 /* beat3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beat3.mp3; sourceTree = "<group>"; };
+		255EB88E162FC51B00D59DC9 /* beat4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beat4.mp3; sourceTree = "<group>"; };
 		255EB893162FC5F500D59DC9 /* RecordingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordingViewController.m; sourceTree = "<group>"; };
 		255EB894162FC5F500D59DC9 /* RecordingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordingViewController.h; sourceTree = "<group>"; };
 		255EB895162FC5F500D59DC9 /* MetaDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetaDataViewController.m; sourceTree = "<group>"; };
@@ -177,10 +177,10 @@
 		255EB84E162FAB9900D59DC9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				255EB88B162FC51B00D59DC9 /* 03 Naughty Girl (Instrumental).mp3 */,
-				255EB88C162FC51B00D59DC9 /* Instrumentals - Dr Dre - Chronic 2001 - Forgot About Dre .mp3 */,
-				255EB88D162FC51B00D59DC9 /* Instrumentals - Guess Who's Back.mp3 */,
-				255EB88E162FC51B00D59DC9 /* Instrumentals- Dr. Dre- Nuthin But A G Thang (1).mp3 */,
+				255EB88B162FC51B00D59DC9 /* beat1.mp3 */,
+				255EB88C162FC51B00D59DC9 /* beat2.mp3 */,
+				255EB88D162FC51B00D59DC9 /* beat3.mp3 */,
+				255EB88E162FC51B00D59DC9 /* beat4.mp3 */,
 				255EB889162FC2FB00D59DC9 /* Mostwasted.ttf */,
 				255EB84F162FAB9900D59DC9 /* RapBattleIt-Info.plist */,
 				255EB850162FAB9900D59DC9 /* InfoPlist.strings */,
@@ -250,10 +250,10 @@
 				255EB85C162FAB9900D59DC9 /* Default@2x.png in Resources */,
 				255EB85E162FAB9900D59DC9 /* Default-568h@2x.png in Resources */,
 				255EB868162FAC5500D59DC9 /* StartBattleViewController.xib in Resources */,
-				255EB88F162FC51B00D59DC9 /* 03 Naughty Girl (Instrumental).mp3 in Resources */,
-				255EB890162FC51B00D59DC9 /* Instrumentals - Dr Dre - Chronic 2001 - Forgot About Dre .mp3 in Resources */,
-				255EB891162FC51B00D59DC9 /* Instrumentals - Guess Who's Back.mp3 in Resources */,
-				255EB892162FC51B00D59DC9 /* Instrumentals- Dr. Dre- Nuthin But A G Thang (1).mp3 in Resources */,
+				255EB88F162FC51B00D59DC9 /* beat1.mp3 in Resources */,
+				255EB890162FC51B00D59DC9 /* beat2.mp3 in Resources */,
+				255EB891162FC51B00D59DC9 /* beat3.mp3 in Resources */,
+				255EB892162FC51B00D59DC9 /* beat4.mp3 in Resources */,
 				255EB89A162FC78F00D59DC9 /* MetaDataViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

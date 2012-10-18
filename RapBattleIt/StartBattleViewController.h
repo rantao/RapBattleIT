@@ -18,6 +18,7 @@
 @property (strong, nonatomic) NSArray *nerdWords;
 @property (strong) NSURL *audioURL;
 
+- (IBAction)beatChanged:(UISegmentedControl *)sender;
 
 - (IBAction)startButtonPressed:(UIButton *)sender;
 
