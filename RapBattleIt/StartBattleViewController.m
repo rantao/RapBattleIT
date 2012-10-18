@@ -37,6 +37,25 @@
         self.verbs = @[@"CODE", @"HACK", @"MERGE", @"FORK", @"DEBUG", @"FETCH", @"POST", @"GET"];
         self.nerdWords = @[@"CLOUD", @"DEVELOPER", @"BIT", @"ARRAY", @"GIT", @"SOURCE", @"SCRIPT", @"OBJECTS", @"SDK", @"API"];
         srand(10);
+        
+        [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];
+        
+        OSStatus propertySetError = 0;
+        UInt32 allowMixing = true;
+        propertySetError = AudioSessionSetProperty(kAudioSessionProperty_OverrideCategoryMixWithOthers, sizeof(allowMixing), &allowMixing);
+        
+        UInt32 audioRouteOverride = kAudioSessionOverrideAudioRoute_Speaker;
+        AudioSessionSetProperty (kAudioSessionProperty_OverrideAudioRoute,sizeof (audioRouteOverride),&audioRouteOverride);
+        
+        NSLog(@"Mixing: %lx", propertySetError); // This should be 0 or there was an issue somewhere
+        
+        [[AVAudioSession sharedInstance] setActive:YES error:nil];
+        
+        AVAudioSession *session = [AVAudioSession sharedInstance];
+        [session setCategory:AVAudioSessionCategoryPlayback error:nil];
+        NSString *music = [[NSBundle mainBundle] pathForResource:@"beat1" ofType:@"mp3"];
+        self.backgroundBeat = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:music] error:NULL];
+        [self.backgroundBeat prepareToPlay];
 
     }
     return self;
@@ -112,11 +131,7 @@
     self.topicLabel.text = [NSString stringWithFormat:@"%@\n%@\n%@",randomCompany, randomVerb, randomNerdWord];
     self.countdownLabel.text = @"00:30";
     timeLeft = 30;
-    AVAudioSession *session = [AVAudioSession sharedInstance];
-    [session setCategory:AVAudioSessionCategoryPlayback error:nil];
-    NSString *music = [[NSBundle mainBundle] pathForResource:@"beat1" ofType:@"mp3"];
-    self.backgroundBeat = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:music] error:NULL];
-    [self.backgroundBeat prepareToPlay];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -194,10 +209,12 @@
     if (!started) {
         [self setupTimer];
         [self recordTouchDown];
-        UInt32 sessionCategory = kAudioSessionCategory_MediaPlayback;
-        AudioSessionSetProperty(kAudioSessionProperty_AudioCategory, sizeof(sessionCategory), &sessionCategory);
-        UInt32 audioRouteOverride = kAudioSessionOverrideAudioRoute_Speaker;
-        AudioSessionSetProperty (kAudioSessionProperty_OverrideAudioRoute,sizeof (audioRouteOverride),&audioRouteOverride);
+
+        
+//        UInt32 sessionCategory = kAudioSessionCategory_MediaPlayback;
+//        AudioSessionSetProperty(kAudioSessionProperty_AudioCategory, sizeof(sessionCategory), &sessionCategory);
+//        UInt32 audioRouteOverride = kAudioSessionOverrideAudioRoute_Speaker;
+//        AudioSessionSetProperty (kAudioSessionProperty_OverrideAudioRoute,sizeof (audioRouteOverride),&audioRouteOverride);
         [self.backgroundBeat play];
         self.beatSegmentedControl.hidden = YES;
         self.startButton.hidden = YES;
