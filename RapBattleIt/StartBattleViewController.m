@@ -65,7 +65,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.rapTopicLabel.font = [UIFont fontWithName:@"MostWasted" size:30];
+    self.rapTopicLabel.font = [UIFont fontWithName:@"MostWasted" size:15];
     self.topicLabel.font = [UIFont fontWithName:@"MostWasted" size:24];
     [self prepareForRecord];
     [self setup];
@@ -129,8 +129,8 @@
     NSString *randomVerb = [self.verbs objectAtIndex:randomVerbIndex];
     NSString *randomNerdWord = [self.nerdWords objectAtIndex:randomNerdWordIndex];
     self.topicLabel.text = [NSString stringWithFormat:@"%@\n%@\n%@",randomCompany, randomVerb, randomNerdWord];
-    self.countdownLabel.text = @"00:30";
-    timeLeft = 30;
+    self.countdownLabel.text = @"00:15";
+    timeLeft = 15;
 
 }
 
@@ -166,7 +166,7 @@
 }
 
 -(void) setupTimer {
-    timeLeft = 30;
+    timeLeft = 15;
     self.countdownTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(countdownStarted) userInfo:nil repeats:YES];
 }
 
