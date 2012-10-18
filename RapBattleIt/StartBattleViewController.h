@@ -12,6 +12,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *rapTopicLabel;
 @property (weak, nonatomic) IBOutlet UILabel *topicLabel;
 @property (weak, nonatomic) IBOutlet UILabel *countdownLabel;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *beatSegmentedControl;
 @property (weak, nonatomic) IBOutlet UIButton *startButton;
 @property (strong, nonatomic) NSArray *companies;
 @property (strong, nonatomic) NSArray *verbs;

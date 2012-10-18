@@ -139,7 +139,10 @@
         [self timerDone];
         [self.countdownTimer invalidate];
         [self.backgroundBeat stop];
+        self.beatSegmentedControl.hidden = NO;
+        self.startButton.hidden = NO;
         started = NO;
+        [self setup];
     }
 }
 
@@ -192,6 +195,8 @@
         [self setupTimer];
         [self recordTouchDown];
         [self.backgroundBeat play];
+        self.beatSegmentedControl.hidden = YES;
+        self.startButton.hidden = YES;
 
     }
     started = YES;
