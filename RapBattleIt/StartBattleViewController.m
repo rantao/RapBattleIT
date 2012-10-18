@@ -194,6 +194,10 @@
     if (!started) {
         [self setupTimer];
         [self recordTouchDown];
+        UInt32 sessionCategory = kAudioSessionCategory_MediaPlayback;
+        AudioSessionSetProperty(kAudioSessionProperty_AudioCategory, sizeof(sessionCategory), &sessionCategory);
+        UInt32 audioRouteOverride = kAudioSessionOverrideAudioRoute_Speaker;
+        AudioSessionSetProperty (kAudioSessionProperty_OverrideAudioRoute,sizeof (audioRouteOverride),&audioRouteOverride);
         [self.backgroundBeat play];
         self.beatSegmentedControl.hidden = YES;
         self.startButton.hidden = YES;
