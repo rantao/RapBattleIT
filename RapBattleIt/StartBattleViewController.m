@@ -65,8 +65,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.rapTopicLabel.font = [UIFont fontWithName:@"MostWasted" size:15];
-    self.topicLabel.font = [UIFont fontWithName:@"MostWasted" size:24];
+//    self.rapTopicLabel.font = [UIFont fontWithName:@"MostWasted" size:15];
+//    self.topicLabel.font = [UIFont fontWithName:@"MostWasted" size:24];
     [self prepareForRecord];
     [self setup];
 
