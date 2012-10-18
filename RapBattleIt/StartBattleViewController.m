@@ -36,7 +36,8 @@
         self.companies = @[@"TWILIO",@"BOX",@"AMAZON",@"DROPBOX",@"DUCKSBOARD",@"GOOGLE",@"HEROKU",@"MASHERY",@"PARSE",@"SENDGRID",@"SOUNDCLOUD",@"AZURE"];
         self.verbs = @[@"CODE", @"HACK", @"MERGE", @"FORK", @"DEBUG", @"FETCH", @"POST", @"GET"];
         self.nerdWords = @[@"CLOUD", @"DEVELOPER", @"BIT", @"ARRAY", @"GIT", @"SOURCE", @"SCRIPT", @"OBJECTS", @"SDK", @"API"];
-        
+        srand(10);
+
     }
     return self;
 }
@@ -102,7 +103,6 @@
 
 
 -(void) setup {
-    srand(10);
     NSInteger randomCompanyIndex = rand() % [self.companies count];
     NSInteger randomVerbIndex = rand() % [self.verbs count];
     NSInteger randomNerdWordIndex = arc4random() % [self.nerdWords count];
